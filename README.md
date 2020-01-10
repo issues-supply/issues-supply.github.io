@@ -1,2 +1,2 @@
-# issues-supply.github.io
-Website displaying top open issues from popular GitHub repositories.
+# [issues.supply](https://issues.supply)
+Top open issues from popular GitHub repositories.
