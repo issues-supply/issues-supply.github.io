@@ -37,6 +37,15 @@ h1 {
   font-size:20px;
 }
     </style>
+    <script>
+var favIcon = "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJSSURBVHjaYvz//z8DKgDyv/75BqS5mDmZGJnQZAECiBFZw6X3t+qP9119fvP3z99ALjMLs6q4Ur1VgYWoPlwNQAAhNNSe6l9ydg0DI4OKhJKemBYzI9PVN7euPbv5/+9/X123ybb1EGUAAcTwHwzqTvUrTrZ2Whd5//Pj/0jg5fe3fltSgFKZB+shIgABBNJw+d0thalWjuuiIEJXP9+V2WYvscXq0NszEJHgbZkKU6wOPT8NZAMEEMhP1ce6GRgZV3pOhtj589+vJ1+fvfjy9NufnxCRpe4TGFmZa4/1AtkAAcT09//fq89uqkmpiHIIQb3FwMjCxMrAxMrEyAgRYWdiM1cwfPTmya//vwECiOn7359/f//VF9dCCtb/f/7/ZQB6lgERgEbiOv/+/Pvw+zNAALFAzEQOXBZGZiE2/j9/f7EysiAJsgCt+/PvL0AAsXAyszOxMF97cwsup8otf8RxOdB4eU4pRBS9ucHAzCjIxgcQQEzMjMwqYgrXnt78AopdELj/7Wnw8dyAo5kXPt6EO/LIvZPiAmKcTOwAAQQKpSarIoa//6N25EOkf/37ff/LE2CEfP/7AyKStK/8748/1Ra5QDZAAEEjLutgHTB2wnZkf/n9Dch9+/PDm58fgIzf//8m7CkFSoXvyIOoBAggRNJIO1C9++oBZjZmM3kjMwl9oOiFV1ePPTzz58dvMxWjle7QWAIIIJTEt/3xwfaT0568ewYMQZAcM6OkgFixWXqwojtcDUAAMWIm7x9/fwLDG+hRAVZeTmYONFmAAAMABCkzSTwdoG0AAAAASUVORK5CYII=";
+var docHead = document.getElementsByTagName('head')[0];
+var newLink = document.createElement('link');
+newLink.rel = 'shortcut icon';
+newLink.type = 'image/x-icon';
+newLink.href = 'data:image/png;base64,'+favIcon;
+docHead.appendChild(newLink);
+    </script>
   </head>
   <body class="text-center">
       <h1 class="h3 mb-3 font-weight-normal"><img src="issue.png" alt="Open issue icon."/></h2>
